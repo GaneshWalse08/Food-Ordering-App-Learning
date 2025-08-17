@@ -1,0 +1,30 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "Learning...",
+  "scripts": {
+     "start": "parcel index.html",
+     "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshWalse08/Food-Ordering-App-Learning.git"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "Ganesh Walse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshWalse08/Food-Ordering-App-Learning/issues"
+  },
+  "homepage": "https://github.com/GaneshWalse08/Food-Ordering-App-Learning#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
