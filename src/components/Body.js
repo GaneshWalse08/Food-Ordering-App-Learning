@@ -1,11 +1,16 @@
-import resObj from "../utils/Mockdata";      // ✅ correct
+import resObj from "../utils/Mockdata";   
+import { useState } from "react";
 import RestrauntCard from "./RestrauntCard";
 
 const Body = () => {
+  const[listOfRestraunt, setlistOfRestraunt] = useState(resObj);
   return(
     <div className="body">
-      <div className="search-bar">
-        Search 
+      <div className="filter-btn">
+        <button id="button1" onClick={()=> {
+          const filteredList = listOfRestraunt.filter((rest) => rest.info.avgRating > 4);
+          setlistOfRestraunt(filteredList);
+        }}> Top Rated Restraunt</button>
       </div>
 
       <div className="Restraunt-container">
@@ -20,7 +25,7 @@ const Body = () => {
         <Restraunt_card resData = {resObj[8]} />
         <Restraunt_card resData = {resObj[9]} /> */}
 
-        {resObj.map((restraunt) =>{
+        {listOfRestraunt.map((restraunt) =>{
           return <RestrauntCard resData={restraunt} key={restraunt.info.id}/>
         })}
         

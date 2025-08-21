@@ -35,9 +35,25 @@
   font-size: 20px;
 }
 
-.search-bar {
+.filter-btn {
   padding: 20px 15px;
 }
+
+#button1 {
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  color: black;
+
+}
+
+#button1:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px;
+}
+
 .card-body .res-img img {
   width: 230px;
   height: 200px;

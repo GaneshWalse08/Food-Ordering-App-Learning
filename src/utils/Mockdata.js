@@ -34,7 +34,7 @@ const resObj = [
       areaName: "Chhindwara",
       costForTwo: "₹500 for two",
       cuisines: ["Burgers", "Fried Chicken", "Fast Food"],
-      avgRating: 4.2,
+      avgRating: 3.2,
       sla: { deliveryTime: 35 }
     }
   },
@@ -47,7 +47,7 @@ const resObj = [
       areaName: "Mohan Nagar",
       costForTwo: "₹350 for two",
       cuisines: ["Biryani", "Hyderabadi", "Kebabs"],
-      avgRating: 4.4,
+      avgRating: 3.4,
       sla: { deliveryTime: 45 }
     }
   },
@@ -112,7 +112,7 @@ const resObj = [
       areaName: "Mohan Nagar",
       costForTwo: "₹800 for two",
       cuisines: ["North Indian", "Mughlai", "Tandoor"],
-      avgRating: 4.5,
+      avgRating: 3.9,
       sla: { deliveryTime: 40 }
     }
   },
@@ -125,7 +125,7 @@ const resObj = [
       areaName: "Chhindwara",
       costForTwo: "₹300 for two",
       cuisines: ["Momos", "Tibetan", "Fast Food"],
-      avgRating: 4.2,
+      avgRating: 3.7,
       sla: { deliveryTime: 27 }
     }
   }
